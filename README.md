@@ -1,3 +1,9 @@
+PROJECT NAME:Personal website
+AUTHOR: Victor Munyao
+LICENSES:none
+
+
+
 This is my first personal website just the layout not a complete build 
 Has the recommendations page which satisfies all the requirements for the independent project  .so please make sure to check that.
  This site has its own local api which i have deployed to heroku

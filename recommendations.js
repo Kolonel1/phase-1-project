@@ -9,9 +9,11 @@ function code() {
         e.preventDefault()
         handleAppendAndPost(e)
 
-        form1.reset()
+       form1.reset()
     }
 
+    
+    
     let form2 = document.querySelector('.form2')
     form2.addEventListener('submit', remove)
     function remove(e) {
@@ -37,10 +39,12 @@ function code() {
       
     }}
 
+
+
     function fetchData() {
         fetch('http://localhost:3000/recommendations')
             .then((response) => response.json())
-            .then(data => loop(data))
+            .then(data => loop(data)) 
 
         function loop(array) {
             for (let element of array) {
@@ -79,6 +83,8 @@ function code() {
 
         }
     }
+ 
+
 
 
     function handleAppendAndPost(e) {
@@ -124,11 +130,12 @@ function code() {
 
                 fetchData()
         }
-
-       
-
-
     }
+
+
+
+
+
  let h3 = document.querySelectorAll('h3')
  for (let element of h3){
     element.addEventListener('mouseover',changeColor)
@@ -140,12 +147,18 @@ function code() {
  function colorChange(e){
     e.target.style.color = 'green'
  }
+
+
  let footer = document.querySelector('.footerLink')
  footer.addEventListener('mouseleave',colorChange)
  footer.addEventListener('mouseover',changeColor)
+
+
  let h1 = document.querySelector('h1')
  h1.addEventListener('mouseover',changeColor)
  h1.addEventListener('mouseleave',colorChange)
  
 }
+
+
 document.addEventListener('DOMContentLoaded', code)
