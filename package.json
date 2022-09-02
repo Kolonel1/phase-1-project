@@ -6,10 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kolonel1/phase-1-project.git"
-  },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
