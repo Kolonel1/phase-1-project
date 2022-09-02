@@ -1,0 +1,272 @@
+{
+  "recommendations": [
+    {
+      "name": "victor",
+      "submission": "more interactivity",
+      "rating": "7",
+      "id": 1
+    }
+  ],
+  "anime": [
+    {
+      "id": 1,
+      "name": "fullmetal alchemist",
+      "genre": "fantasy"
+    },
+    {
+      "id": 2,
+      "name": "love is war",
+      "genre": "romcom"
+    },
+    {
+      "id": 3,
+      "name": "gintama",
+      "genre": "action comedy"
+    },
+    {
+      "id": 4,
+      "name": "steins Gate",
+      "genre": "thriller suspense"
+    },
+    {
+      "id": 4,
+      "name": "attack on titan",
+      "genre": "action drama suspense"
+    },
+    {
+      "id": 5,
+      "name": "hunter x hunter",
+      "genre": "action shounen"
+    },
+    {
+      "id": 6,
+      "name": "fruits basket",
+      "genre": "romance drama"
+    },
+    {
+      "id": 7,
+      "name": "death note",
+      "genre": "thriller drama suspense"
+    },
+    {
+      "id": 8,
+      "name": "one punch man",
+      "genre": "action"
+    },
+    {
+      "id": 9,
+      "name": "sword art online",
+      "genre": "action fantasy"
+    },
+    {
+      "id": 10,
+      "name": "tokyo ghoul",
+      "genre": "action drama horror seinen"
+    },
+    {
+      "id": 11,
+      "name": "my hero academia",
+      "genre": "action shounen"
+    },
+    {
+      "id": 12,
+      "name": "naruto",
+      "genre": "action drama shounen"
+    },
+    {
+      "id": 13,
+      "name": "demon slayer",
+      "genre": "action demons shounen"
+    },
+    {
+      "id": 14,
+      "name": "your name",
+      "genre": "romance drama movie"
+    },
+    {
+      "id": 14,
+      "name": "no game no life",
+      "genre": "drama suspense fantasy"
+    },
+    {
+      "id": 15,
+      "name": "code geass",
+      "genre": "drama mecha action"
+    },
+    {
+      "id": 16,
+      "name": "toradora",
+      "genre": "school romance comedy"
+    },
+    {
+      "id": 17,
+      "name": "your lie in april",
+      "genre": "school romance music drama "
+    },
+    {
+      "id": 18,
+      "name": "re:zero",
+      "genre": "fantasy suspense drama"
+    },
+    {
+      "id": 19,
+      "name": "noragami",
+      "genre": "fantasy comedy"
+    },
+    {
+      "id": 20,
+      "name": "jujutsu kaisen",
+      "genre": "action horror suspense "
+    },
+    {
+      "id": 21,
+      "name": "one piece",
+      "genre": "shounen drama action comedy"
+    },
+    {
+      "id": 22,
+      "name": "angle beats",
+      "genre": "romance action school"
+    },
+    {
+      "id": 23,
+      "name": "akame ga kill",
+      "genre": "action drama seinen"
+    },
+    {
+      "id": 24,
+      "name": "nanatsu no taizai",
+      "genre": "fantasy magic action"
+    },
+    {
+      "id": 25,
+      "name": "erased",
+      "genre": "suspense thriller drama"
+    },
+    {
+      "id": 26,
+      "name": "mirai nikki",
+      "genre": "suspense thriller drama"
+    },
+    {
+      "id": 27,
+      "name": "mob psycho 100",
+      "genre": "comedy action shounen"
+    },
+    {
+      "id": 28,
+      "name": "blue exorcist",
+      "genre": "shounen action magic"
+    },
+    {
+      "id": 29,
+      "name": "haikyuu",
+      "genre": "sports drama school"
+    },
+    {
+      "id": 30,
+      "name": "konosuba",
+      "genre": "fantasy comedy "
+    },
+    {
+      "id": 31,
+      "name": "promised neverland",
+      "genre": "shounen mystery drama"
+    },
+    {
+      "id": 32,
+      "name": "bleach",
+      "genre": "shounen action fantasy"
+    },
+    {
+      "id": 33,
+      "name": "parasyte the maxim",
+      "genre": "thriller drama suspense"
+    },
+    {
+      "id": 34,
+      "name": "cowboy bebop",
+      "genre": "action retro romance seinen"
+    },
+    {
+      "id": 35,
+      "name": "neon genesis evangelion",
+      "genre": "retro mecha action"
+    },
+    {
+      "id": 36,
+      "name": "kill la kill",
+      "genre": "action "
+    },
+    {
+      "id": 37,
+      "name": "violet evergarden",
+      "genre": "romance compelling story"
+    },
+    {
+      "id": 38,
+      "name": "another",
+      "genre": "mystery suspense drama school"
+    },
+    {
+      "id": 39,
+      "name": "seishun buta yarou wa bunny girl senpai",
+      "genre": "romance school drama"
+    },
+    {
+      "id": 40,
+      "name": "food wars",
+      "genre": "school food drama"
+    },
+    {
+      "id": 41,
+      "name": "psycho pass",
+      "genre": "suspense thriller drama action"
+    },
+    {
+      "id": 42,
+      "name": "soul eater",
+      "genre": "no description"
+    },
+    {
+      "id": 43,
+      "name": "dr.stone",
+      "genre": "shounen drama science fiction"
+    },
+    {
+      "id": 44,
+      "name": "anohana the flower we saw that day",
+      "genre": "drama slice of life romance "
+    },
+    {
+      "id": 45,
+      "name": "tengen toppa gurren laggan",
+      "genre": "action comedy drama"
+    },
+    {
+      "id": 46,
+      "name": "darling in the franxx",
+      "genre": "romance drama mecha "
+    },
+    {
+      "id": 47,
+      "name": "jojo",
+      "genre": "memes action drama"
+    },
+    {
+      "id": 48,
+      "name": "charlotte",
+      "genre": "action fantasy romance"
+    },
+    {
+      "id": 49,
+      "name": "the demon lord is a part timer",
+      "genre": "comedy action slice of life"
+    },
+    {
+      "id": 50,
+      "name": "black clover",
+      "genre": "magic action shounen"
+    }
+  ]
+}

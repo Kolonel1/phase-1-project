@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recommendations.css">
+    <title>landing-page</title>
+</head>
+<body class="container full-height-grow">
+  
+    <header class="main-header">
+        <a href="/" class="main-logo">
+            <img src="images/home.png">
+    </a>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="personal-life.html">personal life</a></li>
+            <li><a href="hobbies.html">my hobbies</a></li>
+            <li><a href="ethic.html">work ethic</a></li>
+            <li><a href="resume.html">my resume</a></li>
+            <li><a href="recommendations.html">your recommendations</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h1>Recommendations</h1>
+    <form action="submit" class="form1">
+        <div class="form-elements">
+        <label for="">What to be added</label>
+        <input type="text" placeholder="input here" id="sectionToBeAdded"></div>
+        <!--<div class="form-elements">
+        <label for="">description</label><br>
+        <input type="" placeholder="articulate your point" id="description"></div>-->
+        <div class="form-elements">
+        <label for="">Rating for how satisfying it would be to add the described feature</label>
+        <input type="number" name="satisfaction"  id="satisfaction-rating" placeholder="scale between 1-10"></div>
+        <label for="">First name</label>
+        <input type="text" name="" id="name" placeholder="eg. victor"></div>
+        
+            <input type="submit" class="btn" placeholder="submit">
+        
+    </form>
+    <div><h3>Delete section</h3>
+    <form action="submit" class="form2">
+        <label for=""> The id you want to delete</label>
+        <input type="number" name="" id="deleteNumber" placeholder="id number eg 1">
+        <input type="submit" class="btn" placeholder="submit">
+    </form></div>
+        <div>
+          <h3>Your recommendations</h3>
+            <div class="recommendations-display"><!-- recommendations will be appended here -->
+        </div>
+        </section>
+        <section  class="thankYouSection">
+            <h1>
+                THANK YOU GIFT
+            </h1>
+            <P>Thank you for visiting my site and filling out the form<br>
+              As a thank you,only accessible to those who have visited this specific page.I have prepared an 
+                anime recommendation site for those interested.<br>
+                 I will promptly work on something that favors majority of the masses in the near future.<br>
+                <h2>Please enjoy and hope they are satisfactory.</h2>
+            </p>
+        </section>
+
+        <footer>
+            <a href="anime.html"  class='footerLink' style="color: rgb(194, 45, 45);"><h2>Anime recommendations</h2></a>
+        </footer>
+
+
+<div class="home-page-circle-1"></div>
+<div class="home-page-circle-3"></div>
+<script src="recommendations.js"></script>
+</body>
+</html>

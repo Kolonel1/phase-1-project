@@ -1,0 +1,136 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1f1753;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+}
+
+
+ .main-nav a:hover ,.footer-nav a:hover {
+    color:#adadad
+}
+
+
+
+.form-elements #sectionToBeAdded {
+    width:583px;
+    font-size: medium;
+}
+.form-elements {
+    padding:2px;
+}
+.recommendations-display ul{
+  list-style: none;
+}
+
+
+.main-nav ul ,.footer-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.main-nav ul ,.footer-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.main-nav a , .footer-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1em
+   
+   }
+   .main-header,.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header {
+    height: 140px;
+}
+.btn {
+    color: white;
+    background-color: #1762a7;
+    padding:.75rem 1.5rem;/*top right bottom left */
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.home-page-circle-1 {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    border-radius: 50%;
+    background-color: rgba(49, 42, 85 ,0.5);
+    bottom: 5%;
+    left: 5vw;
+    z-index: -1; /* this makes it to be behind everything by default */
+
+}
+.home-page-circle-3  {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    border-radius: 50%;
+    background-color: rgba(41, 151, 47, 0.1);
+    top: 15%;
+    right: 30vw;
+    z-index: -1;
+} 
+
+
+/*.home-page-circle-2  {
+    position: absolute;
+    overflow: hidden;
+    width: 45vw;
+    height: 45vh;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.home-page-circle-2::before {
+content: '';
+transform: translate(40%,40%);
+position: absolute;
+height: 100%;  /* this is a percentage of the element 
+width: 100%;
+border-radius: 50%;
+background-color: rgba(255, 235, 205,.2);
+} */
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+.form1,.form2,.thankYouSection {
+    background-color: rgb(24, 16, 58);
+    border-radius: .5rem;
+    padding:.75rem 1.5rem
+
+}
+.thankYouSection{
+    color:blanchedalmond
+}
+.recommendations-display {
+    background-color: rgb(24, 16, 58);
+    border-radius: .5rem;
+    padding: .75rem,1,5rem;
+    color: rgba(255, 235, 205,.6);
+}
+bold {
+    font-weight: 900;
+}
