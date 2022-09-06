@@ -13,7 +13,7 @@ function code() {
     }
 
     
-    
+    let recommendationsServer = 'https://pure-island-78558.herokuapp.com/recommendations'
     let form2 = document.querySelector('.form2')
     form2.addEventListener('submit', remove)
     function remove(e) {
@@ -25,7 +25,7 @@ function code() {
        } 
        else {
 
-        fetch(`http://localhost:3000/recommendations/${id}`,{
+        fetch(recommendationsServer/id,{
             method:"DELETE"
         })
         .then(response => response.json())
@@ -42,7 +42,7 @@ function code() {
 
 
     function fetchData() {
-        fetch('http://localhost:3000/recommendations')
+        fetch(recommendationsServer)
             .then((response) => response.json())
             .then(data => loop(data)) 
 
@@ -123,7 +123,7 @@ function code() {
                 body: JSON.stringify(formInputObject)
             }
 
-            fetch('http://localhost:3000/recommendations', post)
+            fetch(recommendationsServer, post)
                 .then(response => response.json())
                 .then(() => alert(`successful post `))
                 .catch(() => alert(`post error `))

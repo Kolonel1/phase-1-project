@@ -1,11 +1,12 @@
 let button = document.querySelector('.btn')
 button.addEventListener('click',handleList)
 
+let animeServer = 'https://pure-island-78558.herokuapp.com/anime'
 function handleList(){
     let ul=document.querySelector('.list')
     if(ul.textContent ===''){
     
-    fetch('http://localhost:3000/anime')
+    fetch(animeServer)
     .then(response => response.json())
     .then((data) =>{modifyList(data)})
     
